@@ -1,0 +1,208 @@
+header img{
+	width: 100px;
+	margin: 2% 50%;
+	transform: translateX(-50%); /*centro*/
+	
+}
+
+nav ul{
+	list-style-type: none;	
+	margin:40px 0 34px;
+
+}
+
+nav ul li{
+	display: inline-block;
+	padding:5px 3%;
+}
+
+a{
+	text-decoration: none;
+
+}
+
+nav a{
+	color: #9A9A9A;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+nav ul a li:hover{
+	background-color: #AFDA8F;
+	color:#fff;
+}
+
+#fondo img {
+	width: 100%;
+	height: 300px;
+}
+
+section img{
+object-fit: cover;
+}
+
+#frase{
+	padding:5% 20%;
+	background-color: #F2F2F2;
+}
+.mision{
+	padding:4% 8%;
+	background-color: #fff;
+}
+
+.metodo{
+	background: url(../img/metodo.jpg)no-repeat;
+	height: 450px;
+	background-size: cover;
+}
+#metodologia{
+	background: url(../img/fondo.jpg)no-repeat;
+	width: 100%;
+	background-size: 110% 110%; 
+}
+
+#medtexto{
+	padding:5%;
+	color:#fff;
+}
+#medtexto img,h1,p{
+	margin:3%;
+}
+#servicio{
+	padding:5% 10% 3%;
+	font-family: arial;
+}
+
+#servicio h3{
+	color:#5E8039;
+}
+
+.servicetyp{
+	padding-top: 4%;
+}
+
+#proyectos{
+	background-color: #5F8039;
+	padding: 5% 0;
+	color:#fff;
+}
+
+
+
+.imagen{
+	padding:0 5% 0 9%;
+
+}
+
+.imagen img{
+	width:100%;
+	height: 40%;
+}
+
+.descripcion{
+	padding:5% 10%;
+
+}
+#equipo{
+	padding:3% 5%; 
+}
+.circulo{
+	border-radius: 50%;
+	height: 32%; /*260px*/
+	width: 32%;
+	margin-bottom: 5%;
+}
+#equipo ul{
+	padding: 3% 0;
+}
+#equipo ul li{
+	display: inline;
+
+}
+#equipo ul a li img{
+	width: 30px;
+	height: 30px;
+}
+
+#slaider{
+	background: url(../img/fondo2.jpg);
+	padding:5%;
+	position: relative;
+}
+
+
+.blog{
+	padding:0 3% 0;
+}
+
+.blog img{
+	height: 100%;
+	width: 96%;
+}
+
+#slaider .siguiente{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+}
+
+.antes{
+	left:2%;
+	bottom: 50%;
+}
+.despues{
+	right: 3%;
+	bottom: 50%;
+}
+#siguenos{
+	background-color: #4D4D4D;
+}
+.fila{
+	padding:5%;
+	background-color: #4D4D4D;
+	
+}
+
+.celda{
+	padding:2%;
+	position:relative;
+	height: 250px;
+	border: 1px solid #fff;
+	color:#fff;
+}
+.redsocial{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 37%;
+	bottom: 3%;
+}
+
+footer{
+	background-color: #F2F2F2;
+	padding:3%;
+}
+
+footer a{
+	color: #000;
+}
+
+footer a span{
+	color:#FAC60E;
+	font-weight: bold;
+}
+
+footer a:hover{
+	text-decoration:underline;
+}
+
+#servicio, header,#equipo{
+font-family: 'Open Sans', sans-serif;
+font-size: 0.8rem;
+}
+
+
+h1{
+	font-size: 1.5rem;
+}
+
